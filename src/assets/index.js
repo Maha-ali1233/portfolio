@@ -29,9 +29,19 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import wordpress from "./company/Wordpress.png"
+import upwork from "./company/Upwork.png"
+import awaara from "./Awaara.png"
+import vault from './vault.png'
+import designpub from './DesignPub.png'
 
 export {
   logo,
+  awaara,
+  vault,
+  designpub,
+  wordpress,
+  upwork,
   backend,
   creator,
   mobile,

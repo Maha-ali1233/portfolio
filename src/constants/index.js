@@ -18,9 +18,14 @@ import {
   meta,
   starbucks,
   tesla,
+  wordpress,
+  upwork,
   shopify,
   carrent,
   jobit,
+  awaara,
+  designpub,
+  vault,
   tripguide,
   threejs,
 } from "../assets";
@@ -116,24 +121,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "WordPress Developer",
+    company_name: "Freelancer on Fiverr",
+    icon: wordpress,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and customizing WordPress themes and plugins to meet client requirements.",
+      "Ensuring websites are responsive, user-friendly, and optimized for performance.",
+      "Integrating third-party services and APIs to enhance website functionality.",
+      "Conducting website maintenance, updates, and troubleshooting to resolve technical issues.",
+      "Collaborating with clients to gather requirements and provide technical recommendations.",
+      "Implementing SEO best practices to improve website visibility and search engine rankings.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "ReactJs Developer",
+    company_name: "Cipher Tech",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - Feb 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,24 +149,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "React Developer",
+    company_name: "Upwork",
+    icon: upwork,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Feb 2024  -  Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,15 +166,15 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I thought it was impossible to make a website as beautiful as our product, but Maha proved me wrong.",
+    name: "Samiha Ali",
+    designation: "CEO",
+    company: "Cipher Tech Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Maha does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,19 +182,19 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "After Maha optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Moiz Banoori",
+    designation: "COO",
+    company: "NeverStopMedia",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Awaara Tours",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Awaara Tours is a travel agency application built on React, offering seamless travel planning and booking services.",
     tags: [
       {
         name: "react",
@@ -215,13 +209,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: awaara,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Vault911",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Vault911 is a file encryption software built with React and Tailwind, providing robust security for sensitive data.",
     tags: [
       {
         name: "react",
@@ -236,16 +230,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: vault,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "DesignPub",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "DesignPub is a drawing app built on React, allowing users to create and share their artwork on a community page.",
     tags: [
       {
-        name: "nextjs",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -253,11 +247,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: designpub,
     source_code_link: "https://github.com/",
   },
 ];
