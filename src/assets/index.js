@@ -34,10 +34,12 @@ import upwork from "./company/Upwork.png"
 import awaara from "./Awaara.png"
 import vault from './vault.png'
 import designpub from './DesignPub.png'
+import aina from './aina.png'
 
 export {
   logo,
   awaara,
+  aina,
   vault,
   designpub,
   wordpress,

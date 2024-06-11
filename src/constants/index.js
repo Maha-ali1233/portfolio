@@ -21,6 +21,7 @@ import {
   wordpress,
   upwork,
   shopify,
+  aina,
   carrent,
   jobit,
   awaara,
@@ -210,6 +211,27 @@ const projects = [
       },
     ],
     image: awaara,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Aina Renovation",
+    description:
+      "Aina Renovation and Interior Designing. This website is made using 3d models and ThreeJS library.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aina,
     source_code_link: "https://github.com/",
   },
   {
