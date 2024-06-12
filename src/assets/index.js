@@ -35,10 +35,14 @@ import awaara from "./Awaara.png"
 import vault from './vault.png'
 import designpub from './DesignPub.png'
 import aina from './aina.png'
+import reminder from './reminder.png'
+import amazon from './Amazon.png'
 
 export {
   logo,
   awaara,
+  reminder,
+  amazon,
   aina,
   vault,
   designpub,

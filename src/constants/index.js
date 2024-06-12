@@ -29,6 +29,8 @@ import {
   vault,
   tripguide,
   threejs,
+  amazon,
+  reminder,
 } from "../assets";
 
 export const navLinks = [
@@ -274,6 +276,48 @@ const projects = [
       },
     ],
     image: designpub,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Amazon Replica",
+    description:
+      "The Amazon Replica project recreates the Best Sellers page. It mirrors Amazon's interface, featuring dynamic product listings and detailed descriptions",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: amazon,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Birthday Reminder",
+    description:
+      "Developed a Birthday Reminder App using React.js to help users keep track of important birthdays and receive timely reminders.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: reminder,
     source_code_link: "https://github.com/",
   },
 ];
